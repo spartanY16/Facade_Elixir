@@ -7,19 +7,19 @@ defmodule ScheduleServer do
   end
 
   def init do
-    "Initializing"
+    IO.puts("Initializing")
   end
 
   def initializeContext do
-    "Initializing context"
+    IO.puts("Initializing context")
   end
 
   def destroy do
-    "Destroying"
+    IO.puts("Destroying")
   end
 
   def shutdown do
-    "Shutdown"
+    IO.puts("Shutdown")
   end
 
 end
