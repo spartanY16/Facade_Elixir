@@ -2,7 +2,7 @@ defmodule ScheduleServer do
 
   def readSystemConfigFile do
     IO.puts("Reading system config files...")
-    Process.sleep(5000)
+    #:timer.sleep(5000)
     IO.puts("Config files ok")
   end
 

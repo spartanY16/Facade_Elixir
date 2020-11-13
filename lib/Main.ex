@@ -1,0 +1,7 @@
+Server.start_link()
+Server.startServer()
+Server.status()
+Server.stopServer()
+Server.status()
+Server.status()
+Server.status()
